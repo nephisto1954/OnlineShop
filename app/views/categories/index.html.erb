@@ -1,8 +1,0 @@
-<h1>Categories</h1>
-
-<%= link_to "Add a category", new_category_path %>
-
-<% @categories.each do |category| %>
-  <h2><%= link_to category.name, category_path(category)%></h2>
-  <%= link_to "Remove category", category_path(category), method: :delete %>
-<% end %>

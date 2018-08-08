@@ -1,0 +1,2103 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %title Code coverage for Onlineshop
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
+    %script{:src => "./assets/0.10.2/application.js", :type => "text/javascript"}
+    %link{:href => "./assets/0.10.2/application.css", :media => "screen, projection, print", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "./assets/0.10.2/favicon_red.png", :rel => "shortcut icon", :type => "image/png"}/
+    %link{:href => "./assets/0.10.2/favicon.png", :rel => "icon", :type => "image/png"}/
+  %body
+    #loading
+      %img{:alt => "loading", :src => "./assets/0.10.2/loading.gif"}/
+    #wrapper{:style => "display:none;"}
+      .timestamp
+        Generated
+        %abbr.timeago{:title => "2018-08-08T07:30:12+01:00"} 2018-08-08T07:30:12+01:00
+      %ul.group_tabs
+      #content
+        #AllFiles.file_list_container
+          %h2
+            %span.group_name All Files
+            (
+            %span.covered_percent
+              %span.red 79.12%
+            covered at
+            %span.covered_strength
+              %span.green
+                1.12
+            hits/line)
+          %a{:name => "AllFiles"}
+          %div
+            %b 27
+            files in total.
+            %b 249
+            relevant lines.
+            %span.green
+              %b 197
+              lines covered
+            and
+            %span.red
+              %b 52
+              lines missed
+          %table.file_list
+            %thead
+              %tr
+                %th File
+                %th % covered
+                %th Lines
+                %th Relevant Lines
+                %th Lines covered
+                %th Lines missed
+                %th Avg. Hits / Line
+            %tbody
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#8489c38854841e85830be6e19428d328faf37bc2", :title => "app/controllers/application_controller.rb"} app/controllers/application_controller.rb
+                %td.green.strong 100.0 %
+                %td 3
+                %td 2
+                %td 2
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#fb593ef59d64ec68a7f23d5bc400679a67a5d777", :title => "app/controllers/categories_controller.rb"} app/controllers/categories_controller.rb
+                %td.red.strong 68.18 %
+                %td 44
+                %td 22
+                %td 15
+                %td 7
+                %td 0.9
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#87fe7b975447a880cfe792aa631869ffee483bd7", :title => "app/controllers/products_controller.rb"} app/controllers/products_controller.rb
+                %td.red.strong 66.67 %
+                %td 57
+                %td 30
+                %td 20
+                %td 10
+                %td 1.2
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#9073c0b41136efb67c3ccf946d14ff0b7d6ef19a", :title => "app/helpers/application_helper.rb"} app/helpers/application_helper.rb
+                %td.green.strong 100.0 %
+                %td 2
+                %td 1
+                %td 1
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#a17f24cd559484d91b20b3f0f69630de66142fc1", :title => "app/models/application_record.rb"} app/models/application_record.rb
+                %td.green.strong 100.0 %
+                %td 3
+                %td 2
+                %td 2
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#0baf915d2b80e395d8efa2e13d453a7e206939e2", :title => "app/models/category.rb"} app/models/category.rb
+                %td.green.strong 100.0 %
+                %td 6
+                %td 4
+                %td 4
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#011d950e3f7e38ff6c407f4c03d503b18ef59698", :title => "app/models/department.rb"} app/models/department.rb
+                %td.green.strong 100.0 %
+                %td 4
+                %td 3
+                %td 3
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#2138861ead5f22b560bd94b371134b0a878d5629", :title => "app/models/product.rb"} app/models/product.rb
+                %td.green.strong 100.0 %
+                %td 7
+                %td 5
+                %td 5
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#49f620cc80e2f37b6b3474b6371e0584d6a438ef", :title => "config/application.rb"} config/application.rb
+                %td.green.strong 100.0 %
+                %td 31
+                %td 15
+                %td 15
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#ff81f8cc9a239335f4ebf6ac49076b22470ec46c", :title => "config/boot.rb"} config/boot.rb
+                %td.green.strong 100.0 %
+                %td 3
+                %td 2
+                %td 2
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#b2f2e8f51d1177aebba0fe0962fed2e1d05d0811", :title => "config/environment.rb"} config/environment.rb
+                %td.green.strong 100.0 %
+                %td 5
+                %td 2
+                %td 2
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#adbd2013211ad9c0e83a0d5dd6a02d1f0a999286", :title => "config/environments/test.rb"} config/environments/test.rb
+                %td.green.strong 100.0 %
+                %td 42
+                %td 12
+                %td 12
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#40d38935e60875eaa669e0018fd3f2dc63d0228b", :title => "config/initializers/application_controller_renderer.rb"} config/initializers/application_controller_renderer.rb
+                %td.green.strong 100.0 %
+                %td 8
+                %td 0
+                %td 0
+                %td 0
+                %td 0.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#0c9fd3fa7f36d8f02bbb4bfa0e10e83daa5425e8", :title => "config/initializers/assets.rb"} config/initializers/assets.rb
+                %td.green.strong 100.0 %
+                %td 14
+                %td 2
+                %td 2
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#60debb1282046865269e9ef039a8a757ffe3b53c", :title => "config/initializers/backtrace_silencers.rb"} config/initializers/backtrace_silencers.rb
+                %td.green.strong 100.0 %
+                %td 7
+                %td 0
+                %td 0
+                %td 0
+                %td 0.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#5922dc5e7eb1d2a3d9a406cbc926f56ad766ad1a", :title => "config/initializers/cookies_serializer.rb"} config/initializers/cookies_serializer.rb
+                %td.green.strong 100.0 %
+                %td 5
+                %td 1
+                %td 1
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#6c7c72279eb75c9ec271f8b757bbca2a6bb60bd2", :title => "config/initializers/filter_parameter_logging.rb"} config/initializers/filter_parameter_logging.rb
+                %td.green.strong 100.0 %
+                %td 4
+                %td 1
+                %td 1
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#8fb08f7c509fa94b4f72a25845e74cbde6bcd5ef", :title => "config/initializers/inflections.rb"} config/initializers/inflections.rb
+                %td.green.strong 100.0 %
+                %td 16
+                %td 0
+                %td 0
+                %td 0
+                %td 0.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#21aedeeae0ac2925196dfa047c719afd76881067", :title => "config/initializers/mime_types.rb"} config/initializers/mime_types.rb
+                %td.green.strong 100.0 %
+                %td 4
+                %td 0
+                %td 0
+                %td 0
+                %td 0.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#ba6d93e9be374ccb04b723aacb3cf19c8caecbda", :title => "config/initializers/wrap_parameters.rb"} config/initializers/wrap_parameters.rb
+                %td.green.strong 100.0 %
+                %td 14
+                %td 2
+                %td 2
+                %td 0
+                %td 1.5
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#0496a33ef3d3725adb4cb75f158c9a31ec348a95", :title => "config/routes.rb"} config/routes.rb
+                %td.green.strong 100.0 %
+                %td 7
+                %td 4
+                %td 4
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#ed165f3d8eb2025dce57c017cc24c57d90fe1ff3", :title => "spec/features/categories/index_spec.rb"} spec/features/categories/index_spec.rb
+                %td.red.strong 74.42 %
+                %td 72
+                %td 43
+                %td 32
+                %td 11
+                %td 0.8
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#4b746b1d388fb8c3a789918b570d4a55ff5202fd", :title => "spec/features/products/index_spec.rb"} spec/features/products/index_spec.rb
+                %td.red.strong 59.32 %
+                %td 91
+                %td 59
+                %td 35
+                %td 24
+                %td 0.7
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#eaf37a3acf35e47c5457f5d3d0e7cee718bb7dcf", :title => "spec/models/category_spec.rb"} spec/models/category_spec.rb
+                %td.green.strong 100.0 %
+                %td 11
+                %td 6
+                %td 6
+                %td 0
+                %td 1.2
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#0b49ce64af9ee4f2d9b6debfee4e63dab2cb037d", :title => "spec/models/department_spec.rb"} spec/models/department_spec.rb
+                %td.green.strong 100.0 %
+                %td 5
+                %td 2
+                %td 2
+                %td 0
+                %td 1.0
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#689621bba1988125f64ebc1a6edf0fca93898285", :title => "spec/models/product_spec.rb"} spec/models/product_spec.rb
+                %td.green.strong 100.0 %
+                %td 16
+                %td 9
+                %td 9
+                %td 0
+                %td 1.2
+              %tr
+                %td.strong
+                  %a.src_link{:href => "#056da4aed40bce962b283a6480b6b10309da73a4", :title => "spec/rails_helper.rb"} spec/rails_helper.rb
+                %td.green.strong 100.0 %
+                %td 77
+                %td 20
+                %td 20
+                %td 0
+                %td 3.4
+      #footer
+        Generated by
+        %a{:href => "http://github.com/colszowka/simplecov"} simplecov
+        v0.16.1
+        and simplecov-html v0.10.2
+        %br/
+        using RSpec
+      .source_files
+        #8489c38854841e85830be6e19428d328faf37bc2.source_table
+          .header
+            %h3 app/controllers/application_controller.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class ApplicationController &lt; ActionController::Base
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby protect_from_forgery with: :exception
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby end
+        #fb593ef59d64ec68a7f23d5bc400679a67a5d777.source_table
+          .header
+            %h3 app/controllers/categories_controller.rb
+            %h4
+              %span.red 68.18 %
+              covered
+            %div
+              %b 22
+              relevant lines.
+              %span.green
+                %b 15
+                lines covered
+              and
+              %span.red
+                %b 7
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class CategoriesController &lt; ApplicationController
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby before_action :set_category, only: [:show, :edit, :update, :destroy]
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby def index
+              %li.covered{"data-hits" => "3", "data-linenumber" => "5"}
+                %span.hits 3
+                %code.ruby @categories = Category.all
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "8"}
+                %span.hits 1
+                %code.ruby def show
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "11"}
+                %span.hits 1
+                %code.ruby def new
+              %li.covered{"data-hits" => "2", "data-linenumber" => "12"}
+                %span.hits 2
+                %code.ruby @category = Category.new
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "15"}
+                %span.hits 1
+                %code.ruby def create
+              %li.missed{"data-hits" => "0", "data-linenumber" => "16"}
+                %code.ruby Category.create(category_params)
+              %li.missed{"data-hits" => "0", "data-linenumber" => "17"}
+                %code.ruby redirect_to categories_path
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "19"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "20"}
+                %span.hits 1
+                %code.ruby def edit
+              %li.never{"data-hits" => "", "data-linenumber" => "21"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "22"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "23"}
+                %span.hits 1
+                %code.ruby def update
+              %li.missed{"data-hits" => "0", "data-linenumber" => "24"}
+                %code.ruby @category.update(category_params)
+              %li.missed{"data-hits" => "0", "data-linenumber" => "25"}
+                %code.ruby redirect_to category_path(@category)
+              %li.never{"data-hits" => "", "data-linenumber" => "26"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "27"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "28"}
+                %span.hits 1
+                %code.ruby def destroy
+              %li.missed{"data-hits" => "0", "data-linenumber" => "29"}
+                %code.ruby @category.destroy
+              %li.missed{"data-hits" => "0", "data-linenumber" => "30"}
+                %code.ruby redirect_to categories_path
+              %li.never{"data-hits" => "", "data-linenumber" => "31"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "32"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "33"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "34"}
+                %span.hits 1
+                %code.ruby private
+              %li.never{"data-hits" => "", "data-linenumber" => "35"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "36"}
+                %span.hits 1
+                %code.ruby def category_params
+              %li.missed{"data-hits" => "0", "data-linenumber" => "37"}
+                %code.ruby params.require(:category).permit(:name)
+              %li.never{"data-hits" => "", "data-linenumber" => "38"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "39"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "40"}
+                %span.hits 1
+                %code.ruby def set_category
+              %li.covered{"data-hits" => "2", "data-linenumber" => "41"}
+                %span.hits 2
+                %code.ruby @category = Category.find(params[:id])
+              %li.never{"data-hits" => "", "data-linenumber" => "42"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "43"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "44"}
+                %code.ruby end
+        #87fe7b975447a880cfe792aa631869ffee483bd7.source_table
+          .header
+            %h3 app/controllers/products_controller.rb
+            %h4
+              %span.red 66.67 %
+              covered
+            %div
+              %b 30
+              relevant lines.
+              %span.green
+                %b 20
+                lines covered
+              and
+              %span.red
+                %b 10
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class ProductsController &lt; ApplicationController
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby before_action :set_product, only: [:show, :edit, :update, :destroy]
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby before_action :set_category
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby def index
+              %li.covered{"data-hits" => "3", "data-linenumber" => "7"}
+                %span.hits 3
+                %code.ruby @products = Product.all
+              %li.covered{"data-hits" => "6", "data-linenumber" => "8"}
+                %span.hits 6
+                %code.ruby @products = @products.sort_by{|c| c[:created_at]}
+              %li.covered{"data-hits" => "3", "data-linenumber" => "9"}
+                %span.hits 3
+                %code.ruby @products = @products.reverse
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "12"}
+                %span.hits 1
+                %code.ruby def show
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "15"}
+                %span.hits 1
+                %code.ruby def new
+              %li.covered{"data-hits" => "2", "data-linenumber" => "16"}
+                %span.hits 2
+                %code.ruby @product = Product.new
+              %li.never{"data-hits" => "", "data-linenumber" => "17"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "19"}
+                %span.hits 1
+                %code.ruby def create
+              %li.missed{"data-hits" => "0", "data-linenumber" => "20"}
+                %code.ruby @product = Product.create(product_params)
+              %li.missed{"data-hits" => "0", "data-linenumber" => "21"}
+                %code.ruby @product = Category.find(params[:category_id])
+              %li.never{"data-hits" => "", "data-linenumber" => "22"}
+                %code.ruby
+              %li.missed{"data-hits" => "0", "data-linenumber" => "23"}
+                %code.ruby if @product.save
+              %li.missed{"data-hits" => "0", "data-linenumber" => "24"}
+                %code.ruby redirect_to category_products_path
+              %li.never{"data-hits" => "", "data-linenumber" => "25"}
+                %code.ruby else
+              %li.missed{"data-hits" => "0", "data-linenumber" => "26"}
+                %code.ruby render :new
+              %li.never{"data-hits" => "", "data-linenumber" => "27"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "28"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "29"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "30"}
+                %span.hits 1
+                %code.ruby def edit
+              %li.never{"data-hits" => "", "data-linenumber" => "31"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "32"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "33"}
+                %span.hits 1
+                %code.ruby def update
+              %li.missed{"data-hits" => "0", "data-linenumber" => "34"}
+                %code.ruby @product.update(product_params)
+              %li.missed{"data-hits" => "0", "data-linenumber" => "35"}
+                %code.ruby redirect_to category_product_path(@category, @product)
+              %li.never{"data-hits" => "", "data-linenumber" => "36"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "37"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "38"}
+                %span.hits 1
+                %code.ruby def destroy
+              %li.missed{"data-hits" => "0", "data-linenumber" => "39"}
+                %code.ruby @product.destroy
+              %li.missed{"data-hits" => "0", "data-linenumber" => "40"}
+                %code.ruby redirect_to category_products_path(@category, @product)
+              %li.never{"data-hits" => "", "data-linenumber" => "41"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "42"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "43"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "44"}
+                %span.hits 1
+                %code.ruby private
+              %li.never{"data-hits" => "", "data-linenumber" => "45"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "46"}
+                %span.hits 1
+                %code.ruby def product_params
+              %li.missed{"data-hits" => "0", "data-linenumber" => "47"}
+                %code.ruby params.require(:product).permit(:title, :description)
+              %li.never{"data-hits" => "", "data-linenumber" => "48"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "49"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "50"}
+                %span.hits 1
+                %code.ruby def set_product
+              %li.covered{"data-hits" => "2", "data-linenumber" => "51"}
+                %span.hits 2
+                %code.ruby @product = Product.find(params[:id])
+              %li.never{"data-hits" => "", "data-linenumber" => "52"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "53"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "54"}
+                %span.hits 1
+                %code.ruby def set_category
+              %li.covered{"data-hits" => "7", "data-linenumber" => "55"}
+                %span.hits 7
+                %code.ruby @category = Category.find(params[:category_id])
+              %li.never{"data-hits" => "", "data-linenumber" => "56"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "57"}
+                %code.ruby end
+        #9073c0b41136efb67c3ccf946d14ff0b7d6ef19a.source_table
+          .header
+            %h3 app/helpers/application_helper.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 1
+              relevant lines.
+              %span.green
+                %b 1
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby module ApplicationHelper
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby end
+        #a17f24cd559484d91b20b3f0f69630de66142fc1.source_table
+          .header
+            %h3 app/models/application_record.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class ApplicationRecord &lt; ActiveRecord::Base
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby self.abstract_class = true
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby end
+        #0baf915d2b80e395d8efa2e13d453a7e206939e2.source_table
+          .header
+            %h3 app/models/category.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 4
+              relevant lines.
+              %span.green
+                %b 4
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class Category &lt; ApplicationRecord
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby has_many :departments
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby has_many :products, through: :departments
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby validates :name, presence: true
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby end
+        #011d950e3f7e38ff6c407f4c03d503b18ef59698.source_table
+          .header
+            %h3 app/models/department.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 3
+              relevant lines.
+              %span.green
+                %b 3
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class Department &lt; ApplicationRecord
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby belongs_to :category
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby belongs_to :product
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby end
+        #2138861ead5f22b560bd94b371134b0a878d5629.source_table
+          .header
+            %h3 app/models/product.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 5
+              relevant lines.
+              %span.green
+                %b 5
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby class Product &lt; ApplicationRecord
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby has_many :departments
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby has_many :categories, through: :departments
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby validates :title, presence: true
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby validates :description, presence: true
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby end
+        #49f620cc80e2f37b6b3474b6371e0584d6a438ef.source_table
+          .header
+            %h3 config/application.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 15
+              relevant lines.
+              %span.green
+                %b 15
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby require_relative 'boot'
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby require "rails"
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # Pick the frameworks you want:
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby require "active_model/railtie"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby require "active_job/railtie"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "7"}
+                %span.hits 1
+                %code.ruby require "active_record/railtie"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "8"}
+                %span.hits 1
+                %code.ruby require "action_controller/railtie"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "9"}
+                %span.hits 1
+                %code.ruby require "action_mailer/railtie"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "10"}
+                %span.hits 1
+                %code.ruby require "action_view/railtie"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "11"}
+                %span.hits 1
+                %code.ruby require "action_cable/engine"
+              %li.covered{"data-hits" => "1", "data-linenumber" => "12"}
+                %span.hits 1
+                %code.ruby require "sprockets/railtie"
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby # require "rails/test_unit/railtie"
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "15"}
+                %code.ruby # Require the gems listed in Gemfile, including any gems
+              %li.never{"data-hits" => "", "data-linenumber" => "16"}
+                %code.ruby # you've limited to :test, :development, or :production.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "17"}
+                %span.hits 1
+                %code.ruby Bundler.require(*Rails.groups)
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "19"}
+                %span.hits 1
+                %code.ruby module OnlineShop
+              %li.covered{"data-hits" => "1", "data-linenumber" => "20"}
+                %span.hits 1
+                %code.ruby class Application &lt; Rails::Application
+              %li.never{"data-hits" => "", "data-linenumber" => "21"}
+                %code.ruby # Initialize configuration defaults for originally generated Rails version.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "22"}
+                %span.hits 1
+                %code.ruby config.load_defaults 5.1
+              %li.never{"data-hits" => "", "data-linenumber" => "23"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "24"}
+                %code.ruby # Settings in config/environments/* take precedence over those specified here.
+              %li.never{"data-hits" => "", "data-linenumber" => "25"}
+                %code.ruby # Application configuration should go into files in config/initializers
+              %li.never{"data-hits" => "", "data-linenumber" => "26"}
+                %code.ruby # -- all .rb files in that directory are automatically loaded.
+              %li.never{"data-hits" => "", "data-linenumber" => "27"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "28"}
+                %code.ruby # Don't generate system test files.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "29"}
+                %span.hits 1
+                %code.ruby config.generators.system_tests = nil
+              %li.never{"data-hits" => "", "data-linenumber" => "30"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "31"}
+                %code.ruby end
+        #ff81f8cc9a239335f4ebf6ac49076b22470ec46c.source_table
+          .header
+            %h3 config/boot.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby require 'bundler/setup' # Set up gems listed in the Gemfile.
+        #b2f2e8f51d1177aebba0fe0962fed2e1d05d0811.source_table
+          .header
+            %h3 config/environment.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Load the Rails application.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby require_relative 'application'
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # Initialize the Rails application.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby Rails.application.initialize!
+        #adbd2013211ad9c0e83a0d5dd6a02d1f0a999286.source_table
+          .header
+            %h3 config/environments/test.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 12
+              relevant lines.
+              %span.green
+                %b 12
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby Rails.application.configure do
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby # Settings specified here will take precedence over those in config/application.rb.
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # The test environment is used exclusively to run your application's
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby # test suite. You never need to work with it otherwise. Remember that
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby # your test database is "scratch space" for the test suite and is wiped
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby # and recreated between test runs. Don't rely on the data there!
+              %li.covered{"data-hits" => "1", "data-linenumber" => "8"}
+                %span.hits 1
+                %code.ruby config.cache_classes = true
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby # Do not eager load code on boot. This avoids loading your whole application
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby # just for the purpose of running a single test. If you are using a tool that
+              %li.never{"data-hits" => "", "data-linenumber" => "12"}
+                %code.ruby # preloads Rails for running tests, you may have to set it to true.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "13"}
+                %span.hits 1
+                %code.ruby config.eager_load = false
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "15"}
+                %code.ruby # Configure public file server for tests with Cache-Control for performance.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "16"}
+                %span.hits 1
+                %code.ruby config.public_file_server.enabled = true
+              %li.covered{"data-hits" => "1", "data-linenumber" => "17"}
+                %span.hits 1
+                %code.ruby config.public_file_server.headers = {
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby 'Cache-Control' =&gt; "public, max-age=\#{1.hour.seconds.to_i}"
+              %li.never{"data-hits" => "", "data-linenumber" => "19"}
+                %code.ruby }
+              %li.never{"data-hits" => "", "data-linenumber" => "20"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "21"}
+                %code.ruby # Show full error reports and disable caching.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "22"}
+                %span.hits 1
+                %code.ruby config.consider_all_requests_local       = true
+              %li.covered{"data-hits" => "1", "data-linenumber" => "23"}
+                %span.hits 1
+                %code.ruby config.action_controller.perform_caching = false
+              %li.never{"data-hits" => "", "data-linenumber" => "24"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "25"}
+                %code.ruby # Raise exceptions instead of rendering exception templates.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "26"}
+                %span.hits 1
+                %code.ruby config.action_dispatch.show_exceptions = false
+              %li.never{"data-hits" => "", "data-linenumber" => "27"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "28"}
+                %code.ruby # Disable request forgery protection in test environment.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "29"}
+                %span.hits 1
+                %code.ruby config.action_controller.allow_forgery_protection = false
+              %li.covered{"data-hits" => "1", "data-linenumber" => "30"}
+                %span.hits 1
+                %code.ruby config.action_mailer.perform_caching = false
+              %li.never{"data-hits" => "", "data-linenumber" => "31"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "32"}
+                %code.ruby # Tell Action Mailer not to deliver emails to the real world.
+              %li.never{"data-hits" => "", "data-linenumber" => "33"}
+                %code.ruby # The :test delivery method accumulates sent emails in the
+              %li.never{"data-hits" => "", "data-linenumber" => "34"}
+                %code.ruby # ActionMailer::Base.deliveries array.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "35"}
+                %span.hits 1
+                %code.ruby config.action_mailer.delivery_method = :test
+              %li.never{"data-hits" => "", "data-linenumber" => "36"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "37"}
+                %code.ruby # Print deprecation notices to the stderr.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "38"}
+                %span.hits 1
+                %code.ruby config.active_support.deprecation = :stderr
+              %li.never{"data-hits" => "", "data-linenumber" => "39"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "40"}
+                %code.ruby # Raises error for missing translations
+              %li.never{"data-hits" => "", "data-linenumber" => "41"}
+                %code.ruby # config.action_view.raise_on_missing_translations = true
+              %li.never{"data-hits" => "", "data-linenumber" => "42"}
+                %code.ruby end
+        #40d38935e60875eaa669e0018fd3f2dc63d0228b.source_table
+          .header
+            %h3 config/initializers/application_controller_renderer.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 0
+              relevant lines.
+              %span.green
+                %b 0
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # ActiveSupport::Reloader.to_prepare do
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby #   ApplicationController.renderer.defaults.merge!(
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby #     http_host: 'example.org',
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby #     https: false
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby #   )
+              %li.never{"data-hits" => "", "data-linenumber" => "8"}
+                %code.ruby # end
+        #0c9fd3fa7f36d8f02bbb4bfa0e10e83daa5425e8.source_table
+          .header
+            %h3 config/initializers/assets.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # Version of your assets, change this if you want to expire all your assets.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby Rails.application.config.assets.version = '1.0'
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby # Add additional assets to the asset load path.
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby # Rails.application.config.assets.paths &lt;&lt; Emoji.images_path
+              %li.never{"data-hits" => "", "data-linenumber" => "8"}
+                %code.ruby # Add Yarn node_modules folder to the asset load path.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "9"}
+                %span.hits 1
+                %code.ruby Rails.application.config.assets.paths &lt;&lt; Rails.root.join('node_modules')
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby # Precompile additional assets.
+              %li.never{"data-hits" => "", "data-linenumber" => "12"}
+                %code.ruby # application.js, application.css, and all non-JS/CSS in the app/assets
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby # folder are already added.
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+        #60debb1282046865269e9ef039a8a757ffe3b53c.source_table
+          .header
+            %h3 config/initializers/backtrace_silencers.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 0
+              relevant lines.
+              %span.green
+                %b 0
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # You can add backtrace silencers for libraries that you're using but don't wish to see in your backtraces.
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # Rails.backtrace_cleaner.add_silencer { |line| line =~ /my_noisy_library/ }
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby # You can also remove all the silencers if you're trying to debug a problem that might stem from framework code.
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby # Rails.backtrace_cleaner.remove_silencers!
+        #5922dc5e7eb1d2a3d9a406cbc926f56ad766ad1a.source_table
+          .header
+            %h3 config/initializers/cookies_serializer.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 1
+              relevant lines.
+              %span.green
+                %b 1
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # Specify a serializer for the signed and encrypted cookie jars.
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # Valid options are :json, :marshal, and :hybrid.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby Rails.application.config.action_dispatch.cookies_serializer = :json
+        #6c7c72279eb75c9ec271f8b757bbca2a6bb60bd2.source_table
+          .header
+            %h3 config/initializers/filter_parameter_logging.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 1
+              relevant lines.
+              %span.green
+                %b 1
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # Configure sensitive parameters which will be filtered from the log file.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby Rails.application.config.filter_parameters += [:password]
+        #8fb08f7c509fa94b4f72a25845e74cbde6bcd5ef.source_table
+          .header
+            %h3 config/initializers/inflections.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 0
+              relevant lines.
+              %span.green
+                %b 0
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # Add new inflection rules using the following format. Inflections
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # are locale specific, and you may define rules for as many different
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby # locales as you wish. All of these examples are active by default:
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby # ActiveSupport::Inflector.inflections(:en) do |inflect|
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby #   inflect.plural /^(ox)$/i, '\1en'
+              %li.never{"data-hits" => "", "data-linenumber" => "8"}
+                %code.ruby #   inflect.singular /^(ox)en/i, '\1'
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby #   inflect.irregular 'person', 'people'
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby #   inflect.uncountable %w( fish sheep )
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby # end
+              %li.never{"data-hits" => "", "data-linenumber" => "12"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby # These inflection rules are supported but not enabled by default:
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby # ActiveSupport::Inflector.inflections(:en) do |inflect|
+              %li.never{"data-hits" => "", "data-linenumber" => "15"}
+                %code.ruby #   inflect.acronym 'RESTful'
+              %li.never{"data-hits" => "", "data-linenumber" => "16"}
+                %code.ruby # end
+        #21aedeeae0ac2925196dfa047c719afd76881067.source_table
+          .header
+            %h3 config/initializers/mime_types.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 0
+              relevant lines.
+              %span.green
+                %b 0
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # Add new mime types for use in respond_to blocks:
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # Mime::Type.register "text/richtext", :rtf
+        #ba6d93e9be374ccb04b723aacb3cf19c8caecbda.source_table
+          .header
+            %h3 config/initializers/wrap_parameters.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # Be sure to restart your server when you modify this file.
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "3"}
+                %code.ruby # This file contains settings for ActionController::ParamsWrapper which
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby # is enabled by default.
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "6"}
+                %code.ruby # Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "7"}
+                %span.hits 1
+                %code.ruby ActiveSupport.on_load(:action_controller) do
+              %li.covered{"data-hits" => "2", "data-linenumber" => "8"}
+                %span.hits 2
+                %code.ruby wrap_parameters format: [:json]
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby # To enable root element in JSON for ActiveRecord objects.
+              %li.never{"data-hits" => "", "data-linenumber" => "12"}
+                %code.ruby # ActiveSupport.on_load(:active_record) do
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby #   self.include_root_in_json = true
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby # end
+        #0496a33ef3d3725adb4cb75f158c9a31ec348a95.source_table
+          .header
+            %h3 config/routes.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 4
+              relevant lines.
+              %span.green
+                %b 4
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby Rails.application.routes.draw do
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby resources :categories do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby resources :products
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby end
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby root to: 'categories#index'
+              %li.never{"data-hits" => "", "data-linenumber" => "7"}
+                %code.ruby end
+        #ed165f3d8eb2025dce57c017cc24c57d90fe1ff3.source_table
+          .header
+            %h3 spec/features/categories/index_spec.rb
+            %h4
+              %span.red 74.42 %
+              covered
+            %div
+              %b 43
+              relevant lines.
+              %span.green
+                %b 32
+                lines covered
+              and
+              %span.red
+                %b 11
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby require 'rails_helper'
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby RSpec.describe 'Category list', :type =&gt; :feature  do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby it 'unauthenticated user' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby visit ('/')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby within '#content' do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "7"}
+                %code.ruby expect(find('h1')).to have_content('Categories')
+              %li.never{"data-hits" => "", "data-linenumber" => "8"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "11"}
+                %span.hits 1
+                %code.ruby describe "viewing the index" do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "12"}
+                %span.hits 1
+                %code.ruby it 'list all of the categories' do
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby # 1. create test data
+              %li.covered{"data-hits" => "1", "data-linenumber" => "14"}
+                %span.hits 1
+                %code.ruby Category.create!(name: 'transport')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "15"}
+                %span.hits 1
+                %code.ruby Category.create!(name: 'tv')
+              %li.never{"data-hits" => "", "data-linenumber" => "16"}
+                %code.ruby # 2. interact with the app
+              %li.covered{"data-hits" => "1", "data-linenumber" => "17"}
+                %span.hits 1
+                %code.ruby visit('/')
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby # 3. expect something to happen
+              %li.covered{"data-hits" => "1", "data-linenumber" => "19"}
+                %span.hits 1
+                %code.ruby expect(page).to have_content('transport')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "20"}
+                %span.hits 1
+                %code.ruby expect(page).to have_content('tv')
+              %li.never{"data-hits" => "", "data-linenumber" => "21"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "22"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "23"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "24"}
+                %span.hits 1
+                %code.ruby context 'create new category' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "25"}
+                %span.hits 1
+                %code.ruby before(:each) do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "26"}
+                %span.hits 1
+                %code.ruby visit new_category_path
+              %li.never{"data-hits" => "", "data-linenumber" => "27"}
+                %code.ruby end
+              %li.covered{"data-hits" => "1", "data-linenumber" => "28"}
+                %span.hits 1
+                %code.ruby scenario 'should be successful' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "29"}
+                %span.hits 1
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "30"}
+                %code.ruby fill_in 'name', with: 'boat'
+              %li.never{"data-hits" => "", "data-linenumber" => "31"}
+                %code.ruby end
+              %li.missed{"data-hits" => "0", "data-linenumber" => "32"}
+                %code.ruby click_button 'Create Category'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "33"}
+                %code.ruby expect(page).to have_content('boat')
+              %li.never{"data-hits" => "", "data-linenumber" => "34"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "35"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "36"}
+                %span.hits 1
+                %code.ruby scenario 'should fail' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "37"}
+                %span.hits 1
+                %code.ruby click_button 'Create Category'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "38"}
+                %code.ruby expect(page).to_not have_content('boat')
+              %li.never{"data-hits" => "", "data-linenumber" => "39"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "40"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "41"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "42"}
+                %span.hits 1
+                %code.ruby context 'update category' do
+              %li.covered{"data-hits" => "3", "data-linenumber" => "43"}
+                %span.hits 3
+                %code.ruby let!(:category){ Category.create(name:'boat') }
+              %li.covered{"data-hits" => "1", "data-linenumber" => "44"}
+                %span.hits 1
+                %code.ruby before(:each) do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "45"}
+                %span.hits 1
+                %code.ruby visit edit_category_path(category)
+              %li.never{"data-hits" => "", "data-linenumber" => "46"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "47"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "48"}
+                %span.hits 1
+                %code.ruby scenario 'should be successful' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "49"}
+                %span.hits 1
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "50"}
+                %code.ruby fill_in 'name', with: 'food'
+              %li.never{"data-hits" => "", "data-linenumber" => "51"}
+                %code.ruby end
+              %li.missed{"data-hits" => "0", "data-linenumber" => "52"}
+                %code.ruby click_button 'Update Category'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "53"}
+                %code.ruby expect(page).to have_content('food')
+              %li.never{"data-hits" => "", "data-linenumber" => "54"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "55"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "56"}
+                %span.hits 1
+                %code.ruby scenario 'should be fail' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "57"}
+                %span.hits 1
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "58"}
+                %code.ruby fill_in 'name', with: ''
+              %li.never{"data-hits" => "", "data-linenumber" => "59"}
+                %code.ruby end
+              %li.missed{"data-hits" => "0", "data-linenumber" => "60"}
+                %code.ruby click_button 'Update Category'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "61"}
+                %code.ruby expect(page).to have_content('boat')
+              %li.never{"data-hits" => "", "data-linenumber" => "62"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "63"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "64"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "65"}
+                %span.hits 1
+                %code.ruby context 'destroy category' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "66"}
+                %span.hits 1
+                %code.ruby scenario 'should be successfull' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "67"}
+                %span.hits 1
+                %code.ruby category = Category.create(name: 'boat')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "68"}
+                %span.hits 1
+                %code.ruby visit categories_path
+              %li.covered{"data-hits" => "2", "data-linenumber" => "69"}
+                %span.hits 2
+                %code.ruby expect{ click_link 'Remove category' }.to change(Category, :count).by(-1)
+              %li.never{"data-hits" => "", "data-linenumber" => "70"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "71"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "72"}
+                %code.ruby end
+        #4b746b1d388fb8c3a789918b570d4a55ff5202fd.source_table
+          .header
+            %h3 spec/features/products/index_spec.rb
+            %h4
+              %span.red 59.32 %
+              covered
+            %div
+              %b 59
+              relevant lines.
+              %span.green
+                %b 35
+                lines covered
+              and
+              %span.red
+                %b 24
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby require 'rails_helper'
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby RSpec.describe 'Product list', :type =&gt; :feature  do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby it 'unauthenticated user' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "5"}
+                %span.hits 1
+                %code.ruby category = Category.create!(name:'transport')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby visit category_products_path(category)
+              %li.covered{"data-hits" => "1", "data-linenumber" => "7"}
+                %span.hits 1
+                %code.ruby within '#content' do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "8"}
+                %code.ruby expect(find('h1')).to have_content('transport')
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "12"}
+                %span.hits 1
+                %code.ruby describe "viewing the index of each category" do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "13"}
+                %span.hits 1
+                %code.ruby it 'list all of the products' do
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby # 1. create test data
+              %li.covered{"data-hits" => "1", "data-linenumber" => "15"}
+                %span.hits 1
+                %code.ruby category = Category.create!(name:'transport')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "16"}
+                %span.hits 1
+                %code.ruby product = Product.create!(title: 'Toyota', description: 'car')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "17"}
+                %span.hits 1
+                %code.ruby product = Product.create!(title: 'Alienware', description: 'computer')
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby # 2. interact with the app
+              %li.covered{"data-hits" => "1", "data-linenumber" => "19"}
+                %span.hits 1
+                %code.ruby visit category_products_path(category)
+              %li.never{"data-hits" => "", "data-linenumber" => "20"}
+                %code.ruby # 3. expect something to happen
+              %li.covered{"data-hits" => "1", "data-linenumber" => "21"}
+                %span.hits 1
+                %code.ruby expect(page).to have_content('Toyota')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "22"}
+                %span.hits 1
+                %code.ruby expect(page).to have_content('Alienware')
+              %li.never{"data-hits" => "", "data-linenumber" => "23"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "24"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "25"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "26"}
+                %span.hits 1
+                %code.ruby context 'create new product' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "27"}
+                %span.hits 1
+                %code.ruby before(:each) do
+              %li.covered{"data-hits" => "2", "data-linenumber" => "28"}
+                %span.hits 2
+                %code.ruby category = Category.create!(name:'transport')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "29"}
+                %span.hits 1
+                %code.ruby visit new_category_product_path(category)
+              %li.covered{"data-hits" => "2", "data-linenumber" => "30"}
+                %span.hits 2
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "31"}
+                %code.ruby fill_in 'title', with: 'Ford'
+              %li.never{"data-hits" => "", "data-linenumber" => "32"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "33"}
+                %code.ruby end
+              %li.covered{"data-hits" => "1", "data-linenumber" => "34"}
+                %span.hits 1
+                %code.ruby scenario 'should be successful' do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "35"}
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "36"}
+                %code.ruby fill_in 'description', with: 'bus'
+              %li.never{"data-hits" => "", "data-linenumber" => "37"}
+                %code.ruby end
+              %li.missed{"data-hits" => "0", "data-linenumber" => "38"}
+                %code.ruby click_button 'Create Product'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "39"}
+                %code.ruby expect(page).to have_content('Ford Description: bus')
+              %li.never{"data-hits" => "", "data-linenumber" => "40"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "41"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "42"}
+                %span.hits 1
+                %code.ruby scenario 'should fail' do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "43"}
+                %code.ruby click_button 'Create Product'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "44"}
+                %code.ruby expect(page).to_not have_content('bus')
+              %li.missed{"data-hits" => "0", "data-linenumber" => "45"}
+                %code.ruby category = Category.create!(name:'transport')
+              %li.missed{"data-hits" => "0", "data-linenumber" => "46"}
+                %code.ruby visit new_category_product_path(category)
+              %li.missed{"data-hits" => "0", "data-linenumber" => "47"}
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "48"}
+                %code.ruby fill_in 'title', with: 'Ford'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "49"}
+                %code.ruby fill_in 'description', with: ''
+              %li.never{"data-hits" => "", "data-linenumber" => "50"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "51"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "52"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "53"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "54"}
+                %span.hits 1
+                %code.ruby context 'update product' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "55"}
+                %span.hits 1
+                %code.ruby before(:each) do
+              %li.covered{"data-hits" => "2", "data-linenumber" => "56"}
+                %span.hits 2
+                %code.ruby category = Category.create!(name:'transport')
+              %li.covered{"data-hits" => "2", "data-linenumber" => "57"}
+                %span.hits 2
+                %code.ruby product = Product.create!(title: 'Toyota', description: 'car')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "58"}
+                %span.hits 1
+                %code.ruby visit edit_category_product_path(category, product)
+              %li.covered{"data-hits" => "2", "data-linenumber" => "59"}
+                %span.hits 2
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "60"}
+                %code.ruby fill_in 'title', with: 'Toyota'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "61"}
+                %code.ruby fill_in 'description', with: 'car'
+              %li.never{"data-hits" => "", "data-linenumber" => "62"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "63"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "64"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "65"}
+                %span.hits 1
+                %code.ruby scenario 'should be successful' do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "66"}
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "67"}
+                %code.ruby fill_in 'title', with: 'Alienware'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "68"}
+                %code.ruby fill_in 'description', with: 'gaming laptop'
+              %li.never{"data-hits" => "", "data-linenumber" => "69"}
+                %code.ruby end
+              %li.missed{"data-hits" => "0", "data-linenumber" => "70"}
+                %code.ruby click_button 'Update Product'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "71"}
+                %code.ruby expect(page).to have_content('Alienware gaming laptop')
+              %li.never{"data-hits" => "", "data-linenumber" => "72"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "73"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "74"}
+                %span.hits 1
+                %code.ruby scenario 'should be fail' do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "75"}
+                %code.ruby within('form') do
+              %li.missed{"data-hits" => "0", "data-linenumber" => "76"}
+                %code.ruby fill_in 'title', with: '.'
+              %li.never{"data-hits" => "", "data-linenumber" => "77"}
+                %code.ruby end
+              %li.missed{"data-hits" => "0", "data-linenumber" => "78"}
+                %code.ruby click_button 'Update Product'
+              %li.missed{"data-hits" => "0", "data-linenumber" => "79"}
+                %code.ruby expect(page).to_not have_content('. gaming laptop')
+              %li.never{"data-hits" => "", "data-linenumber" => "80"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "81"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "82"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "83"}
+                %span.hits 1
+                %code.ruby context 'destroy product' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "84"}
+                %span.hits 1
+                %code.ruby scenario 'should be successfull' do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "85"}
+                %span.hits 1
+                %code.ruby category = Category.create!(name:'transport')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "86"}
+                %span.hits 1
+                %code.ruby product = Product.create!(title: 'Toyota', description: 'car')
+              %li.covered{"data-hits" => "1", "data-linenumber" => "87"}
+                %span.hits 1
+                %code.ruby visit category_products_path(category, product)
+              %li.covered{"data-hits" => "2", "data-linenumber" => "88"}
+                %span.hits 2
+                %code.ruby expect{ click_link 'Remove product' }.to change(Product, :count).by(-1)
+              %li.never{"data-hits" => "", "data-linenumber" => "89"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "90"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "91"}
+                %code.ruby end
+        #eaf37a3acf35e47c5457f5d3d0e7cee718bb7dcf.source_table
+          .header
+            %h3 spec/models/category_spec.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 6
+              relevant lines.
+              %span.green
+                %b 6
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby require 'rails_helper'
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby RSpec.describe Category, type: :model do
+              %li.covered{"data-hits" => "2", "data-linenumber" => "4"}
+                %span.hits 2
+                %code.ruby subject { described_class.new(name: "Anything") }
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby it "is not valid without a name" do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "7"}
+                %span.hits 1
+                %code.ruby subject.name = nil
+              %li.covered{"data-hits" => "1", "data-linenumber" => "8"}
+                %span.hits 1
+                %code.ruby expect(subject).not_to be_valid
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby end
+        #0b49ce64af9ee4f2d9b6debfee4e63dab2cb037d.source_table
+          .header
+            %h3 spec/models/department_spec.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 2
+              relevant lines.
+              %span.green
+                %b 2
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby require 'rails_helper'
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby RSpec.describe Department, type: :model do
+              %li.never{"data-hits" => "", "data-linenumber" => "4"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby end
+        #689621bba1988125f64ebc1a6edf0fca93898285.source_table
+          .header
+            %h3 spec/models/product_spec.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 9
+              relevant lines.
+              %span.green
+                %b 9
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.covered{"data-hits" => "1", "data-linenumber" => "1"}
+                %span.hits 1
+                %code.ruby require 'rails_helper'
+              %li.never{"data-hits" => "", "data-linenumber" => "2"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby RSpec.describe Product, type: :model do
+              %li.covered{"data-hits" => "3", "data-linenumber" => "4"}
+                %span.hits 3
+                %code.ruby subject { described_class.new(title: "Anything", description: "Lorem Ipsum") }
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby it "is not valid without a title" do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "7"}
+                %span.hits 1
+                %code.ruby subject.title = nil
+              %li.covered{"data-hits" => "1", "data-linenumber" => "8"}
+                %span.hits 1
+                %code.ruby expect(subject).not_to be_valid
+              %li.never{"data-hits" => "", "data-linenumber" => "9"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "11"}
+                %span.hits 1
+                %code.ruby it "is not valid without a description" do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "12"}
+                %span.hits 1
+                %code.ruby subject.description = nil
+              %li.covered{"data-hits" => "1", "data-linenumber" => "13"}
+                %span.hits 1
+                %code.ruby expect(subject).not_to be_valid
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "15"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "16"}
+                %code.ruby end
+        #056da4aed40bce962b283a6480b6b10309da73a4.source_table
+          .header
+            %h3 spec/rails_helper.rb
+            %h4
+              %span.green 100.0 %
+              covered
+            %div
+              %b 20
+              relevant lines.
+              %span.green
+                %b 20
+                lines covered
+              and
+              %span.red
+                %b 0
+                lines missed.
+          %pre
+            %ol
+              %li.never{"data-hits" => "", "data-linenumber" => "1"}
+                %code.ruby # This file is copied to spec/ when you run 'rails generate rspec:install'
+              %li.covered{"data-hits" => "1", "data-linenumber" => "2"}
+                %span.hits 1
+                %code.ruby require 'spec_helper'
+              %li.covered{"data-hits" => "1", "data-linenumber" => "3"}
+                %span.hits 1
+                %code.ruby ENV['RAILS_ENV'] ||= 'test'
+              %li.covered{"data-hits" => "1", "data-linenumber" => "4"}
+                %span.hits 1
+                %code.ruby require File.expand_path('../../config/environment', __FILE__)
+              %li.never{"data-hits" => "", "data-linenumber" => "5"}
+                %code.ruby # Prevent database truncation if the environment is production
+              %li.covered{"data-hits" => "1", "data-linenumber" => "6"}
+                %span.hits 1
+                %code.ruby abort("The Rails environment is running in production mode!") if Rails.env.production?
+              %li.covered{"data-hits" => "1", "data-linenumber" => "7"}
+                %span.hits 1
+                %code.ruby require 'rspec/rails'
+              %li.covered{"data-hits" => "1", "data-linenumber" => "8"}
+                %span.hits 1
+                %code.ruby require 'database_cleaner'
+              %li.covered{"data-hits" => "1", "data-linenumber" => "9"}
+                %span.hits 1
+                %code.ruby require 'capybara/rspec'
+              %li.never{"data-hits" => "", "data-linenumber" => "10"}
+                %code.ruby # Add additional requires below this line. Rails is not loaded until this point!
+              %li.never{"data-hits" => "", "data-linenumber" => "11"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "12"}
+                %code.ruby # Requires supporting ruby files with custom matchers and macros, etc, in
+              %li.never{"data-hits" => "", "data-linenumber" => "13"}
+                %code.ruby # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
+              %li.never{"data-hits" => "", "data-linenumber" => "14"}
+                %code.ruby # run as spec files by default. This means that files in spec/support that end
+              %li.never{"data-hits" => "", "data-linenumber" => "15"}
+                %code.ruby # in _spec.rb will both be required and run as specs, causing the specs to be
+              %li.never{"data-hits" => "", "data-linenumber" => "16"}
+                %code.ruby # run twice. It is recommended that you do not name files matching this glob to
+              %li.never{"data-hits" => "", "data-linenumber" => "17"}
+                %code.ruby # end with _spec.rb. You can configure this pattern with the --pattern
+              %li.never{"data-hits" => "", "data-linenumber" => "18"}
+                %code.ruby # option on the command line or in ~/.rspec, .rspec or `.rspec-local`.
+              %li.never{"data-hits" => "", "data-linenumber" => "19"}
+                %code.ruby #
+              %li.never{"data-hits" => "", "data-linenumber" => "20"}
+                %code.ruby # The following line is provided for convenience purposes. It has the downside
+              %li.never{"data-hits" => "", "data-linenumber" => "21"}
+                %code.ruby # of increasing the boot-up time by auto-requiring all files in the support
+              %li.never{"data-hits" => "", "data-linenumber" => "22"}
+                %code.ruby # directory. Alternatively, in the individual `*_spec.rb` files, manually
+              %li.never{"data-hits" => "", "data-linenumber" => "23"}
+                %code.ruby # require only the support files necessary.
+              %li.never{"data-hits" => "", "data-linenumber" => "24"}
+                %code.ruby #
+              %li.never{"data-hits" => "", "data-linenumber" => "25"}
+                %code.ruby # Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+              %li.never{"data-hits" => "", "data-linenumber" => "26"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "27"}
+                %code.ruby # Checks for pending migrations and applies them before tests are run.
+              %li.never{"data-hits" => "", "data-linenumber" => "28"}
+                %code.ruby # If you are not using ActiveRecord, you can remove this line.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "29"}
+                %span.hits 1
+                %code.ruby ActiveRecord::Migration.maintain_test_schema!
+              %li.never{"data-hits" => "", "data-linenumber" => "30"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "31"}
+                %span.hits 1
+                %code.ruby RSpec.configure do |config|
+              %li.never{"data-hits" => "", "data-linenumber" => "32"}
+                %code.ruby # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
+              %li.covered{"data-hits" => "1", "data-linenumber" => "33"}
+                %span.hits 1
+                %code.ruby config.fixture_path = "\#{::Rails.root}/spec/fixtures"
+              %li.never{"data-hits" => "", "data-linenumber" => "34"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "35"}
+                %code.ruby # If you're not using ActiveRecord, or you'd prefer not to run each of your
+              %li.never{"data-hits" => "", "data-linenumber" => "36"}
+                %code.ruby # examples within a transaction, remove the following line or assign false
+              %li.never{"data-hits" => "", "data-linenumber" => "37"}
+                %code.ruby # instead of true.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "38"}
+                %span.hits 1
+                %code.ruby config.use_transactional_fixtures = false
+              %li.never{"data-hits" => "", "data-linenumber" => "39"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "40"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "41"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "42"}
+                %code.ruby #for Database cleaning before and after tests!
+              %li.never{"data-hits" => "", "data-linenumber" => "43"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "44"}
+                %span.hits 1
+                %code.ruby config.before(:suite)do
+              %li.covered{"data-hits" => "1", "data-linenumber" => "45"}
+                %span.hits 1
+                %code.ruby DatabaseCleaner.clean_with(:truncation)
+              %li.never{"data-hits" => "", "data-linenumber" => "46"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "47"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "48"}
+                %span.hits 1
+                %code.ruby config.before(:each) do |example|
+              %li.covered{"data-hits" => "17", "data-linenumber" => "49"}
+                %span.hits 17
+                %code.ruby DatabaseCleaner.strategy = example.metadata[:js] ? :truncation : :transaction
+              %li.covered{"data-hits" => "17", "data-linenumber" => "50"}
+                %span.hits 17
+                %code.ruby DatabaseCleaner.start
+              %li.never{"data-hits" => "", "data-linenumber" => "51"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "52"}
+                %code.ruby
+              %li.covered{"data-hits" => "1", "data-linenumber" => "53"}
+                %span.hits 1
+                %code.ruby config.after(:each) do
+              %li.covered{"data-hits" => "17", "data-linenumber" => "54"}
+                %span.hits 17
+                %code.ruby DatabaseCleaner.clean
+              %li.never{"data-hits" => "", "data-linenumber" => "55"}
+                %code.ruby end
+              %li.never{"data-hits" => "", "data-linenumber" => "56"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "57"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "58"}
+                %code.ruby # RSpec Rails can automatically mix in different behaviours to your tests
+              %li.never{"data-hits" => "", "data-linenumber" => "59"}
+                %code.ruby # based on their file location, for example enabling you to call `get` and
+              %li.never{"data-hits" => "", "data-linenumber" => "60"}
+                %code.ruby # `post` in specs under `spec/controllers`.
+              %li.never{"data-hits" => "", "data-linenumber" => "61"}
+                %code.ruby #
+              %li.never{"data-hits" => "", "data-linenumber" => "62"}
+                %code.ruby # You can disable this behaviour by removing the line below, and instead
+              %li.never{"data-hits" => "", "data-linenumber" => "63"}
+                %code.ruby # explicitly tag your specs with their type, e.g.:
+              %li.never{"data-hits" => "", "data-linenumber" => "64"}
+                %code.ruby #
+              %li.never{"data-hits" => "", "data-linenumber" => "65"}
+                %code.ruby #     RSpec.describe UsersController, :type =&gt; :controller do
+              %li.never{"data-hits" => "", "data-linenumber" => "66"}
+                %code.ruby #       # ...
+              %li.never{"data-hits" => "", "data-linenumber" => "67"}
+                %code.ruby #     end
+              %li.never{"data-hits" => "", "data-linenumber" => "68"}
+                %code.ruby #
+              %li.never{"data-hits" => "", "data-linenumber" => "69"}
+                %code.ruby # The different available types are documented in the features, such as in
+              %li.never{"data-hits" => "", "data-linenumber" => "70"}
+                %code.ruby # https://relishapp.com/rspec/rspec-rails/docs
+              %li.covered{"data-hits" => "1", "data-linenumber" => "71"}
+                %span.hits 1
+                %code.ruby config.infer_spec_type_from_file_location!
+              %li.never{"data-hits" => "", "data-linenumber" => "72"}
+                %code.ruby
+              %li.never{"data-hits" => "", "data-linenumber" => "73"}
+                %code.ruby # Filter lines from Rails gems in backtraces.
+              %li.covered{"data-hits" => "1", "data-linenumber" => "74"}
+                %span.hits 1
+                %code.ruby config.filter_rails_from_backtrace!
+              %li.never{"data-hits" => "", "data-linenumber" => "75"}
+                %code.ruby # arbitrary gems may also be filtered via:
+              %li.never{"data-hits" => "", "data-linenumber" => "76"}
+                %code.ruby # config.filter_gems_from_backtrace("gem name")
+              %li.never{"data-hits" => "", "data-linenumber" => "77"}
+                %code.ruby end
