@@ -1,5 +1,12 @@
-%h1 Categories
-= link_to "Add a category", new_category_path
-- @categories.each do |category|
-  %h2= link_to category.name, category_path(category)
-  = link_to "Remove category", category_path(category), method: :delete
+.container
+  .home
+    .title
+      %h1 Categories
+      %h4= link_to "(Add a category)", new_category_path
+    .category-list
+      - @categories.each do |category|
+        .category-item
+          %h2
+            = link_to category.name, category_path(category) 
+          %h3= link_to "Remove category", category_path(category), method: :delete
+  

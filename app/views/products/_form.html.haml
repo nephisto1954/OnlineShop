@@ -1,6 +1,6 @@
 = form_for [@category, @product] do |f|
   = f.label :title, "Enter the title"
-  = f.text_field :title
+  .input= f.text_field :title
   = f.label :description, "Enter a description"
-  = f.text_field :description
-  = f.submit
+  .input= f.text_field :description
+  #button= f.submit

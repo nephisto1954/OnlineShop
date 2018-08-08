@@ -1,0 +1,7 @@
+- @products.each do |product|
+  .list
+    %h2= link_to product.title, category_product_path(@category, product)
+    %p Description: #{product.description}
+    %p Creation date: #{product.created_at}
+    = link_to "Remove product", category_product_path(@category, product), method: :delete
+    = link_to "Update product", edit_category_product_path(@category, product)

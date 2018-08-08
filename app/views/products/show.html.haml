@@ -1,3 +1,6 @@
-%h2= @product.title
-%p= @product.description
-= link_to "Back to all products", category_products_path(@category)
+.container
+  .home
+    .product
+      %h2= @product.title
+      %p= @product.description
+    = link_to "Back to all products", category_products_path(@category)
