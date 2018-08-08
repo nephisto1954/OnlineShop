@@ -1,0 +1,11 @@
+<h1><%=@category.name%></h1>
+
+<%= link_to "Add a product", new_category_product_path(@category) %>
+
+<% @products.each do |product| %>
+  <h2><%= link_to product.title, category_product_path(@category, product)%></h2>
+  <p>Description: <%= product.description %></p>
+  <p>Creation date: <%= product.created_at %></p>
+<%= link_to "Remove product", category_product_path(@category, product), method: :delete %>
+<%= link_to "Update product", edit_category_product_path(@category, product) %>  
+<% end %>
